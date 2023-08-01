@@ -1,0 +1,22 @@
+{
+  "name": "vdom",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "dev:react": "vite --mode react",
+    "dev:vue2": "vite --mode vue2",
+    "dev:vue3": "vite --mode vue3",
+    "build:react": "vite build --mode react",
+    "build:vue2": "vite build --mode vue2",
+    "build:vue3": "vite build --mode vue3",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
