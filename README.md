@@ -106,6 +106,16 @@ function mountText(vnode, parent) {
 }
 ```
 
+## 实现记录
+
+### 2023-8-1日
+
+- 实现h函数和render，效果如下
+
+![h_render](/doc/h_render.png)
+
+- tag -  1.0.0
+
 
 
 
