@@ -132,4 +132,5 @@ function mountText(vnode, parent) {
 ![gif](/doc/20230802-183933.gif)
 ![vue2_diff](/doc/vue2-diff.png)
 
+-tag - 1.0.2
 
