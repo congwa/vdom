@@ -124,3 +124,12 @@ function mountText(vnode, parent) {
 
 - tag -  1.0.1
 
+### 2023-8-2日_
+
+- 完善patch逻辑
+- 完善vue2 diff
+
+![gif](/doc/20230802-183933.gif)
+![vue2_diff](/doc/vue2-diff.png)
+
+

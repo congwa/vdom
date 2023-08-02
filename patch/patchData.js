@@ -26,7 +26,7 @@ export default function patchData(el, key, prevValue, nextValue) {
         if(nextValue) {
           el.addEventlistener(key.slice(2), nextValue)
         }
-      }  else if (domPropsRE.text(key)) {
+      }  else if (domPropsRE.test(key)) {
         // 当做 dom prop 处理
         el[key] = nextValue
       } else {
