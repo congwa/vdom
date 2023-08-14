@@ -132,5 +132,24 @@ function mountText(vnode, parent) {
 ![gif](/doc/20230802-183933.gif)
 ![vue2_diff](/doc/vue2-diff.png)
 
--tag - 1.0.2
+- tag - 1.0.2
 
+key的使用：通过diff算法得知两点
+
+1. 错误用法 1：用index做key
+   用index做key的效果实际和没有用diff算法是一样的，
+
+   当我们用index作为key的时候，无论我们怎么样移动删除节点，到了diff算法中都会从头到尾依次patch(图中：所有节点均未有效的复用)
+
+2. 错误用法2 ：用index拼接其他值作为key
+   当已用index拼接其他值作为索引的时候，因为每一个节点都找不到对应的key，导致所有的节点都不能复用,所有的新vnode都需要重新创建。都需要重新create
+
+
+### 2023-8-14日
+
+- [完善vue3 diff](/diff/vue3.js)
+
+![vue3diff](/doc/20230802-183933.gif)
+
+
+- tag - 1.0.3
