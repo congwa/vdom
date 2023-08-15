@@ -153,3 +153,12 @@ key的使用：通过diff算法得知两点
 
 
 - tag - 1.0.3
+
+
+### 2023-8-15
+
+- [完善react diff](/diff/react.js)
+
+![react diff](/doc/react.gif)
+
+- tag - 1.0.4
